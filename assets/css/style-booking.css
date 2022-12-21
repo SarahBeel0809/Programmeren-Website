@@ -1,0 +1,67 @@
+body {
+    width: 1366px;
+    margin: auto;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #193B68;
+
+}
+
+h2 {
+    margin-left: 10em;
+}
+
+.booking_form {
+    background-color: rgba(128, 195, 216, 0.2);
+    padding: 3em;
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+input {
+    margin-top: 1em;
+    height: 3em;
+    border: 2px solid #193B68;
+}
+
+textarea {
+    margin-top: 1em;
+    height: 2em;
+    border: 2px solid #193B68;
+    height: 7em;
+}
+
+.verzend_knop {
+    width: 12em;
+    background-color: #BC112E;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+    font-size: 1em;
+}
+
+.landing {
+    height: 15em;
+    margin-bottom: 3em;
+}

@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style_index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style_header_footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-booking.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-header-footer.css">
+    <link rel="stylesheet" href="https://use.typekit.net/aty1ilj.css">
     <title>Website opdracht 4 Atelier</title>
 </head>
 <body>
     <nav>
-        <img src="#" alt="logo cultuurcentrum">
+        <img src="images/logo.png" alt="logo cultuurcentrum" class="logo">
         <ul>
             <li>Home</li>
             <li>Over ons</li>
@@ -23,24 +24,26 @@
     <main>
         <section>
             <h1>Zaal boeken</h1>
-            <img src="#" alt="afbeelding landingpagina">
+            <img src="images/landing.jpg" alt="afbeelding landingpagina" class="landing">
         </section>
-        <section>
+        <section class="booking_form">
+            <h1>Verifieer de boeking</h1>
+            <h2>Voor de gekozen zaal via onderstaand formulier</h2>
             <form>
-                <input type="text" id="naam">
-                <input type="email" id="mail">
-                <input type="tel" id="telefoon">
-                <input type="text" id="naam_zaal">
+                <input type="text" id="naam" value="Naam">
+                <input type="email" id="mail" value="E-mail">
+                <input type="tel" id="telefoon" value="Telefoonnr">
+                <input type="text" id="naam_zaal" value="Naam zaal">
                 <input type="date" id="datum_reservering">
                 <textarea id="opmerking">Extra opmerkingen/wensen</textarea>
-                <input type="submit" value="Verzend">
+                <input type="submit" value="Verzend" class="verzend_knop">
             </form>
         </section>
     </main>
     <footer>
-        <div>
+        <div class="footer_links">
             <div>
-                <img src="#" alt="Cultuurcentrum logo">
+                <img src="images/logo.png" alt="Cultuurcentrum logo" class="logo">
             </div>
             <div>
                 <p>Ontdek onze website</p>
