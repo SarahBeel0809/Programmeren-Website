@@ -1,0 +1,55 @@
+body {
+    width: 1366px;
+    margin: auto;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    background-color: #80C3D8;
+    color: white;
+    width: auto;
+}
+
+.landing {
+    margin-bottom: 4em;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+}
+
+.title_centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    text-transform: uppercase;
+}
+
+.zaal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    
+}
+
+
+
+button {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    color: white;
+    background-color: #BC112E;
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    margin-top: 1em;
+    border: none;
+}
