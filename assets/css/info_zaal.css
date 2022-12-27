@@ -1,0 +1,96 @@
+body {
+    width: 1366px;
+    margin: auto;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #193B68;
+    margin-bottom: 1em;
+}
+
+.landing {
+    margin-bottom: 4em;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+}
+
+.title_centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #BC112E;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.overzicht_gegevens {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3em;
+    background-color: rgba(128, 195, 216, 0.2);
+    padding-bottom: 2em;
+}
+
+.gegevens_zaal {
+    display: flex;   
+    padding-bottom: 1.5em;
+}
+
+.gegevens_zaal p{
+    margin-left: 4em;
+}
+
+.gegevens_zaal ul {
+    margin-left: 5.7em;
+}
+
+.afbeelding_zaal {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.afbeelding_zaal img {
+    margin-top: 1em;
+}
+
+button {
+    width: 10em;
+    background-color: #BC112E;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    border: none;
+    font-size: 1.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    margin-top: 1.2em;
+    align-self: center;
+}
+
+footer {
+    margin-top: 2em;
+}

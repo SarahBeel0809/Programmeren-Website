@@ -6,6 +6,14 @@ body {
     font-style: normal;
 }
 
+h1 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #193B68;
+}
+
 h2 {
     background-color: #80C3D8;
     color: white;
@@ -34,10 +42,30 @@ h2 {
     display: flex;
     flex-direction: column;
     margin-top: 3em;
-    
+    position: relative;
 }
 
+.zaal:nth-child(odd){
+    background-color: rgba(128, 195, 216, 0.2);
+    padding: 3em;
+}
 
+.zaal img {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.naam_zaal {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translate(-30%, 50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
 
 button {
     font-family: azo-sans-web, sans-serif;
@@ -52,4 +80,8 @@ button {
     padding: 0.5em;
     margin-top: 1em;
     border: none;
+}
+
+footer {
+    margin-top: 3em;
 }

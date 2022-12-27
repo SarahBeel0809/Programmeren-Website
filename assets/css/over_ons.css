@@ -1,0 +1,80 @@
+body {
+    width: 1366px;
+    margin: auto;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #193B68;
+}
+
+h2 {
+    color: #193B68;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+.landing {
+    margin-bottom: 4em;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+}
+
+.title_centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    text-transform: uppercase;
+}
+
+button {
+    width: 10em;
+    background-color: #BC112E;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    border: none;
+    font-size: 1.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    margin-top: 1.2em;
+}
+
+.team {
+    background: rgba(128, 195, 216, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.team_onderdeel p{
+    background-color: #BC112E;
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.team_onderdeel {
+    width: 474px;
+    justify-self: center;
+}
