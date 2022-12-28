@@ -1,0 +1,75 @@
+body {
+    width: 1366px;
+    margin: auto;
+    font-family: nunito, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #193B68;
+    margin-top: 2em;
+}
+
+#landing {
+    position: relative;
+    text-align: center;
+}
+
+.title_landing {
+    width: 30em;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.button_landing {
+    width: 15em;
+    background-color: #BC112E;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    border: none;
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1.2em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.landing_event {
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+h2 {
+    color: #BC112E;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.datum_event {
+    position: absolute;
+    top: 22%;
+    left: 3%;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 2em;
+}
