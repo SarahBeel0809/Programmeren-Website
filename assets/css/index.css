@@ -12,7 +12,7 @@ h1 {
     font-style: normal;
     font-size: 35px;
     color: #193B68;
-    margin-top: 2em;
+    margin-top: 0.5em;
 }
 
 #landing {
@@ -72,4 +72,87 @@ h2 {
     font-weight: 600;
     font-style:normal;
     font-size: 2em;
+}
+
+.overzicht_zalen {
+    display: grid;
+    column-gap: 5em;
+    width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overzicht_zalen p {
+    color: #193B68;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#theaterzaal {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+#stadsschouwburg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    text-align: center;
+}
+
+#concertzaal {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    text-align: center;
+}
+
+#congresruimte {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    text-align: center;
+}
+
+button {
+    width: 10em;
+    background-color: #BC112E;
+    color: white;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    border: none;
+    font-size: 1.2em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+.planning_zaal {
+    background-color: rgba(128, 195, 216, 0.2);
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+    margin-top: 3em;
+}
+
+h3 {
+    color: #193B68;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin-top: 1em;
 }
