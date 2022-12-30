@@ -22,6 +22,16 @@ nav li {
     margin-left: 6em;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #80C3D8;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #193B68;
     color: white;
@@ -58,5 +68,18 @@ footer li {
 
 #footer_copyright {
     margin-left: 3.5em;
+}
+
+.social_link{
+    width:2em;
+    height: 2em;
+    background-color: #bc112e;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin-top: 1em;
+}
+
+.social_link:hover {
+    background-color: #80C3D8;
 }
 

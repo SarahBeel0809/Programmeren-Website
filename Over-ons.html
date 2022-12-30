@@ -13,11 +13,11 @@
     <nav>
         <img src="images/logo.png" alt="logo cultuurcentrum" class="logo">
         <ul>
-            <li>Home</li>
-            <li>Over ons</li>
-            <li>Kalender</li>
-            <li>Zaalverhuur</li>
-            <li>Contact</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="over-ons.html">Over Ons</a></li>
+            <li><a href="kalender.html">Kalender</a></li>
+            <li><a href="zaalverhuur.html">Zaalverhuur</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -25,12 +25,12 @@
             <img src="images/landing_klein.jpg" alt="Afbeelding_landingpagina">
             <h1 class="title_centered">Over ons</h1>
         </section>
-        <section>
+        <section class="knoppen_overons">
             <button>Wie is wie</button>
             <button> Onze missie</button>
             <button>Onze visie</button>
         </section>
-        <section>
+        <section class="ontdek_team">
             <h1>Maak kennis met ons team achter de schermen</h1>
             <div class="team">
                 <div class="team_onderdeel">
@@ -85,7 +85,9 @@
 
                     no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing </p>
             </div>
-            <img src="#" alt="hier komt de video" id="video">
+            <div id="video">
+                <iframe width="1160" height="315" src="https://www.youtube.com/embed/ALkuT0ny3OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div id="visie">
                 <h2>Visie</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
@@ -121,10 +123,19 @@
             <div class="footer_part">
                 <p class="footer_titel">Volg ons op sociale media:</p>
                 <p>
-                    <img src="#" alt="Instagram">
-                    <img src="#" alt="Facebook">
-                    <img src="#" alt="Twitter">
-                    <img src="#" alt="Gmail">
+                    <a href="https://www.instagram.com/howest_oog/">
+                        <img src="assets/media/instagram_icon.png" alt="Instagram" class="social_link">
+                    </a>
+                    <a href="https://www.facebook.com/howestoog/">
+                        <img src="assets/media/facebook_icon.png" alt="Facebook" class="social_link">
+                    </a>
+                    <a href="https://twitter.com/howest">
+                        <img src="assets/media/twitter_icon.png" alt="Twitter" class="social_link">
+                    </a>
+                    <a href="https://www.google.com/search?client=firefox-b-d&q=gmail">
+                        <img src="assets/media/google_icon.png" alt="Gmail" class="social_link">
+                    </a>
+                    
                 </p>
             </div>
         </div>

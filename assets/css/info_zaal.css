@@ -12,7 +12,15 @@ h1 {
     font-style: normal;
     font-size: 35px;
     color: #193B68;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.info_zaal{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 .landing {
@@ -47,12 +55,14 @@ h2 {
     margin-right: auto;
     padding-top: 3em;
     background-color: rgba(128, 195, 216, 0.2);
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+
 }
 
 .gegevens_zaal {
     display: flex;   
     padding-bottom: 1.5em;
+    margin-left: 11em;
 }
 
 .gegevens_zaal p{
@@ -61,6 +71,10 @@ h2 {
 
 .gegevens_zaal ul {
     margin-left: 5.7em;
+}
+
+.gegevens_zaal li{
+    padding-bottom: 0.7em;
 }
 
 .afbeelding_zaal {
@@ -76,6 +90,10 @@ h2 {
     margin-top: 1em;
 }
 
+.afbeelding_zaal a {
+    align-self:center;
+}
+
 button {
     width: 10em;
     background-color: #BC112E;
@@ -88,7 +106,13 @@ button {
     padding-top: 0.4em;
     padding-bottom: 0.4em;
     margin-top: 1.2em;
-    align-self: center;
+}
+
+
+button:hover {
+    background-color: #80c3d8;
+    text-decoration: none;
+    color: white;
 }
 
 footer {

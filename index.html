@@ -13,18 +13,20 @@
     <nav>
         <img src="images/logo.png" alt="logo cultuurcentrum" class="logo">
         <ul>
-            <li>Home</li>
-            <li>Over ons</li>
-            <li>Kalender</li>
-            <li>Zaalverhuur</li>
-            <li>Contact</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="over-ons.html">Over Ons</a></li>
+            <li><a href="kalender.html">Kalender</a></li>
+            <li><a href="zaalverhuur.html">Zaalverhuur</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section id="landing">
             <img src="images/landing_groot.jpg" alt="afbeelding landingpagina">
             <h1 class="title_landing">Ontdek de nieuwste evenementen bij ons</h1>
-            <button class="button_landing">Wordt hier vrijwilliger</button>
+                <a href="contact.html"
+                    <button class="button_landing">Wordt hier vrijwilliger</button>
+                </a>
         </section>
         <section class="landing_event">
             <h1>Ontdek de spannendste highlights</h1>
@@ -32,7 +34,10 @@
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut </p>
             <p class="datum_event">29-12-2022</p>
             <img src="images/landing_event.jpg" alt="afbeelding John Doe in concert">
-            <button>Bekijk dit event</button>
+            <a href="kalender.html">
+                <button class="button_spotlight">Bekijk dit event</button>
+            </a>
+            
         </section>
         <section class="planning_zaal">
             <h1>Een optreden of voorstelling inplannen?</h1>
@@ -42,25 +47,36 @@
                     <img src="images/theaterzaal_klein.jpg" alt="afbeelding theaterzaal">
                     <h3>Theaterzaal</h3>
                     <p>300</p>
-                    <button>Kies deze zaal</button>
+                    <a href="info-zaal-theaterzaal.html">
+                        <button>Kies deze zaal</button>
+                    </a>
                 </div>
                 <div id="stadsschouwburg">
                     <img src="images/stadsschouwburg_klein.jpg" alt="afbeelding stadsschouwburg">
                     <h3>stadsschouwburg</h3>
                     <p>300</p>
-                    <button>Kies deze zaal</button>
+                    <a href="info-zaal-stadsschouwburg.html">
+                        <button>Kies deze zaal</button>
+                    </a>
+                    
                 </div>
                 <div id="concertzaal">
                     <img src="images/concertzaal_klein.jpg" alt="afbeelding concertzaal">
                     <h3>concertzaal</h3>
                     <p>300</p>
-                    <button>Kies deze zaal</button>
+                    <a href="info-zaal-concertzaal.html">
+                        <button>Kies deze zaal</button>
+                    </a>
+                    
                 </div>
                 <div id="congresruimte">
                     <img src="images/congresruimte_klein.jpg" alt="afbeelding congresruimte">
                     <h3>congresruimte</h3>
                     <p>300</p>
-                    <button>Kies deze zaal</button>
+                    <a href="info-zaal-congresruimte.html">
+                        <button>Kies deze zaal</button>
+                    </a>
+                    
                 </div>
             </div>
         </section>
@@ -92,10 +108,19 @@
             <div class="footer_part">
                 <p class="footer_titel">Volg ons op sociale media:</p>
                 <p>
-                    <img src="#" alt="Instagram">
-                    <img src="#" alt="Facebook">
-                    <img src="#" alt="Twitter">
-                    <img src="#" alt="Gmail">
+                    <a href="https://www.instagram.com/howest_oog/">
+                        <img src="assets/media/instagram_icon.png" alt="Instagram" class="social_link">
+                    </a>
+                    <a href="https://www.facebook.com/howestoog/">
+                        <img src="assets/media/facebook_icon.png" alt="Facebook" class="social_link">
+                    </a>
+                    <a href="https://twitter.com/howest">
+                        <img src="assets/media/twitter_icon.png" alt="Twitter" class="social_link">
+                    </a>
+                    <a href="https://www.google.com/search?client=firefox-b-d&q=gmail">
+                        <img src="assets/media/google_icon.png" alt="Gmail" class="social_link">
+                    </a>
+                    
                 </p>
             </div>
         </div>

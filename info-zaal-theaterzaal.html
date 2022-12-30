@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style-booking.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/info_zaal.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style-header-footer.css">
-    <link rel="stylesheet" href="https://use.typekit.net/aty1ilj.css">
     <title>Website opdracht 4 Atelier</title>
 </head>
 <body>
@@ -23,21 +22,36 @@
     </nav>
     <main>
         <section id="landing">
-            <h1 class="title_centered">Zaal boeken</h1>
-            <img src="images/landing_klein.jpg" alt="afbeelding landingpagina" class="landing">
+            <h1 class="title_centered">Info zaal</h1>
+            <img src="images/landing_klein.jpg" alt="afbeelding landingpagina">
         </section>
-        <section class="booking_form">
-            <h1>Verifieer de boeking</h1>
-            <h2>Voor de gekozen zaal via onderstaand formulier</h2>
-            <form>
-                <input type="text" id="naam" placeholder="Naam">
-                <input type="email" id="mail" placeholder="E-mail">
-                <input type="tel" id="telefoon" placeholder="Telefoonnr">
-                <input type="text" id="naam_zaal" placeholder="Naam zaal">
-                <input type="date" id="datum_reservering">
-                <textarea id="opmerking" placeholder="Extra opmerkingen/wensen/vragen"></textarea>
-                <input type="submit" value="Verzend" class="verzend_knop">
-            </form>
+        <section class="info_zaal">
+            <h1>Theaterzaal</h1>
+            <div class="overzicht_gegevens">
+                <div class="gegevens_zaal">
+                    <h2>Capaciteit van de zaal:</h2>
+                    <p> Deze zaal kan een publiek van 300 personen opvangen</p>
+                </div>
+                <div class="gegevens_zaal">
+                    <h2>Aanwezig materiaal:</h2>
+                    <ul>
+                        <li>Beelscherm</li>
+                        <li>Grote audioboxen (verspreid over de zaal)</li>
+                        <li>Kleine audioboxen (indien dit nodig is)</li>
+                        <li>Verlichting zaal</li>
+                        <li>Verlichting podium</li>
+                        <li>Zetels met tafeltje per persoon in het publiek</li>
+                        <li> 3 microfoons (indien meer nodig kan dit altijd bijgevraagd worden</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="afbeelding_zaal">
+                <h2> Overzicht van de zaal</h2>
+                <img src="images/theaterzaal_groot.jpg" alt="afbeelding van de zaal">
+                <a href="booking.html">
+                    <button>Boek deze zaal</button>
+                </a>
+            </div>
         </section>
     </main>
     <footer>
